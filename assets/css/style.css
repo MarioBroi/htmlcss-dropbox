@@ -31,6 +31,10 @@ li>a {
     color: var(--dropbox-darker);
 }
 
+h1 {
+    font-size: 50px;
+}
+
 /* #endregion Common */
 
 /* #region Header */
@@ -68,6 +72,20 @@ header {
 /* #endregion Header */
 
 /* #region Main */
+
+.jumbotrone {
+    background-color: var(--dropbox-primary);
+    display: flex;
+    justify-content: center;
+}
+
+.container-jumbo {
+    width: 900px;
+}
+
+.jumbo-img {
+    width: 100%;
+}
 
 /* #endregion Main */
 
