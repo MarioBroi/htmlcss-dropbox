@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --dropbox-primary: rgba(180, 208, 231, 1);
+    --dropbox-lighter: rgba(255, 255, 255, 1);
+    --dropbox-buttons: rgba(0, 97, 255, 1);
+    --dropbox-danger: rgba(97, 8, 43, 1);
+    --dropbox-darker: rgba(0, 0, 0, 1);
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
