@@ -40,6 +40,13 @@ label {
     padding-right: 2rem;
 }
 
+.btn-primary {
+    padding: 0.5rem;
+    color: var(--dropbox-lighter);
+    background-color: var(--dropbox-buttons);
+    border: transparent;
+}
+
 /* #endregion Common */
 
 /* #region Header */
@@ -65,13 +72,6 @@ header {
 .header-left>ul {
     display: flex;
     align-items: center;
-}
-
-.btn-start {
-    padding: 0.5rem;
-    color: var(--dropbox-lighter);
-    background-color: var(--dropbox-buttons);
-    border: transparent;
 }
 
 /* #endregion Header */
@@ -113,7 +113,8 @@ header {
     margin-top: 3rem;
 }
 
-.business-plan {
+.business-plan,
+.partner {
     display: flex;
     justify-content: center;
     background-color: var(--dropbox-lighter);
@@ -144,19 +145,21 @@ header {
     margin-right: 1rem;
 }
 
-.btn-tryal {
-    padding: 0.5rem;
-    color: var(--dropbox-lighter);
-    background-color: var(--dropbox-buttons);
-    border: transparent;
-}
-
 .plan-type-container {
     display: flex;
 }
 
 .enterprise {
     margin-top: 1rem;
+}
+
+.partner {
+    width: 800px;
+}
+
+.btn-partner {
+    padding: 0.5rem;
+    background-color: var(--dropbox-lighter);
 }
 
 /* #endregion Main */
