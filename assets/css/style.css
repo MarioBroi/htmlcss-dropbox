@@ -32,7 +32,8 @@ li>a {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
+    padding: 3rem 0;
 }
 
 /* #endregion Common */
@@ -84,7 +85,28 @@ header {
 }
 
 .jumbo-img {
-    width: 100%;
+    width: 70%;
+    height: 70%
+}
+
+.prova {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbo-paragraf {
+    width: 40%;
+}
+
+.jumbo-paragraf>p,
+.jumbo-paragraf>button {
+    margin-bottom: 1rem;
+}
+
+.arrow-down {
+    font-size: 40px;
+    margin-top: 3rem;
 }
 
 /* #endregion Main */
