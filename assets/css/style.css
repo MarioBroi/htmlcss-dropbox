@@ -198,6 +198,10 @@ header {
     padding-top: 1rem;
 }
 
+.link-discover>a {
+    margin-bottom: 5rem;
+}
+
 /* #endregion Main */
 
 /* #region Footer */
