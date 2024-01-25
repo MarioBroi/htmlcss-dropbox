@@ -26,13 +26,23 @@ ul>li {
     padding: 1rem;
 }
 
+li>a {
+    text-decoration: none;
+    color: var(--dropbox-darker);
+}
+
 /* #endregion Common */
 
 /* #region Header */
 
 header {
     background-color: var(--dropbox-lighter);
-    padding: 1rem;
+    padding: 0 1rem;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-right,
@@ -42,9 +52,17 @@ header {
     align-items: center;
 }
 
-li>a {
-    text-decoration: none;
-    color: var(--dropbox-darker);
+.header-left,
+.header-left>ul {
+    display: flex;
+    align-items: center;
+}
+
+.btn-start {
+    padding: 0.5rem;
+    color: var(--dropbox-lighter);
+    background-color: var(--dropbox-buttons);
+    border: transparent;
 }
 
 /* #endregion Header */
