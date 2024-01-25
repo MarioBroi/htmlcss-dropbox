@@ -52,6 +52,11 @@ label {
     border: transparent;
 }
 
+.site-flex {
+    display: flex;
+    justify-content: center;
+}
+
 /* #endregion Common */
 
 /* #region Header */
@@ -118,8 +123,7 @@ header {
     margin-top: 3rem;
 }
 
-.business-plan,
-.partner {
+.business-plan {
     display: flex;
     justify-content: center;
     background-color: var(--dropbox-lighter);
@@ -159,11 +163,7 @@ header {
 }
 
 .partner {
-    width: 800px;
-}
-
-.partner>img {
-    width: 400px;
+    background-color: var(--dropbox-lighter);
 }
 
 .btn-partner {
@@ -174,7 +174,21 @@ header {
 .container {
     width: 800px;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.site-flex>img {
+    width: 400px;
+    margin-top: 5rem;
+}
+
+.partner-text {
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+
+.partner-text>p {
+    padding: 1rem 0;
 }
 
 .row {
@@ -201,6 +215,8 @@ header {
 .link-discover>a {
     margin-bottom: 5rem;
 }
+
+.teamwork {}
 
 /* #endregion Main */
 
