@@ -36,6 +36,10 @@ h1 {
     padding: 3rem 0;
 }
 
+label {
+    padding-right: 2rem;
+}
+
 /* #endregion Common */
 
 /* #region Header */
@@ -107,6 +111,22 @@ header {
 .arrow-down {
     font-size: 50px;
     margin-top: 3rem;
+}
+
+.business-plan {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dropbox-lighter);
+}
+
+.business-plan-top {
+    width: 800px;
+    padding-top: 5rem;
+}
+
+.business-plan-top>h2,
+.business-plan-top>input {
+    padding-bottom: 2rem;
 }
 
 /* #endregion Main */
