@@ -121,12 +121,42 @@ header {
 
 .business-plan-top {
     width: 800px;
-    padding-top: 5rem;
+    padding-top: 8rem;
 }
 
 .business-plan-top>h2,
 .business-plan-top>input {
     padding-bottom: 2rem;
+}
+
+.plan-sheet {
+    display: flex;
+}
+
+.user-type-info,
+.enterprise {
+    border: 1px groove var(--dropbox-darker);
+    padding: 2rem;
+}
+
+.user-type-info:nth-child(2) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.btn-tryal {
+    padding: 0.5rem;
+    color: var(--dropbox-lighter);
+    background-color: var(--dropbox-buttons);
+    border: transparent;
+}
+
+.plan-type-container {
+    display: flex;
+}
+
+.enterprise {
+    margin-top: 1rem;
 }
 
 /* #endregion Main */
