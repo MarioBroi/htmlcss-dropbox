@@ -12,7 +12,7 @@
     --dropbox-buttons: rgba(0, 97, 255, 1);
     --dropbox-danger: rgba(97, 8, 43, 1);
     --dropbox-darker: rgba(0, 0, 0, 1);
-    --dropbox-sponsor-designit: #a2d39b;
+    --dropbox-sponsor-designit-s: #a2d39b;
     --dropbox-sponsor-asu: #61082b;
     --dropbox-sponsor-uf: #0093ce;
     --dropbox-sponsor-topps: #ff1c1c;
@@ -234,6 +234,45 @@ header {
     flex-grow: 1;
     aspect-ratio: 1;
 }
+
+.left-container {
+    height: 400px;
+    width: 400px;
+    background-color: var(--dropbox-primary);
+}
+
+.left>svg {
+    fill: var(--dropbox-lighter);
+}
+
+.left-wrap {
+    display: flex;
+}
+
+.designit-s-logo {
+    background-color: var(--dropbox-sponsor-designit-s);
+    width: 200px;
+    height: 200px;
+}
+
+.asu-logo {
+    background-color: var(--dropbox-sponsor-asu);
+    width: 200px;
+    height: 200px;
+}
+
+.ud-logo {
+    background-color: var(--dropbox-sponsor-uf);
+    width: 200px;
+    height: 200px;
+}
+
+.tops-logo {
+    background-color: var(--dropbox-sponsor-topps);
+    width: 200px;
+    height: 200px;
+}
+
 
 /* #endregion Main */
 
