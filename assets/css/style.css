@@ -49,6 +49,10 @@ label {
     padding-right: 2rem;
 }
 
+.margin-top {
+    margin-top: 10rem;
+}
+
 .btn-primary {
     padding: 0.5rem;
     color: var(--dropbox-lighter);
@@ -63,12 +67,20 @@ label {
 
 .inline-list {
     display: flex;
-    list-style: none;
     gap: 1rem;
 }
 
 .flex-end {
     justify-content: flex-end;
+}
+
+hr {
+    margin: 0 -1rem;
+}
+
+.hr-short {
+    width: 25%;
+    margin: 0;
 }
 
 /* #endregion Common */
@@ -77,24 +89,25 @@ label {
 
 header {
     background-color: var(--dropbox-lighter);
-}
 
-nav {
-    display: flex;
-    justify-content: space-between;
+    &>nav {
+        display: flex;
+        justify-content: space-between;
 
-    & .header-right,
-    .header-left {
-        flex-grow: 1;
-        padding: 1rem;
+        & .header-right,
+        .header-left {
+            flex-grow: 1;
+            padding: 1rem;
+        }
+
     }
-
 }
 
 /* #endregion Header */
 
 /* #region Main */
 
+/* Jumbotron */
 .jumbotron {
     background-color: var(--dropbox-primary);
     display: flex;
@@ -132,44 +145,59 @@ nav {
     margin-top: 3rem;
 }
 
-.business-plan {
+/* /end Jumbotron */
+
+/* Plan */
+
+.row {
     display: flex;
-    justify-content: center;
-    background-color: var(--dropbox-lighter);
+    flex-wrap: wrap;
+    margin: 0;
 }
 
-.business-plan-top {
-    width: 800px;
-    padding-top: 8rem;
+.col-4 {
+    width: calc((100%/12)*3.7);
+    padding: 0 1rem;
+    margin: 4rem 0.6rem;
+
+    &>.col-top {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    &>.col-center,
+    .col-bottom {
+        padding-top: 1rem;
+
+        &>h3,
+        strong,
+        em,
+        p {
+            padding: 1.5rem 0;
+        }
+
+    }
+
 }
 
-.business-plan-top>h2,
-.business-plan-top>input {
-    padding-bottom: 2rem;
-}
-
-.plan-sheet {
-    display: flex;
-}
-
-.user-type-info,
-.enterprise {
+.border {
     border: 1px groove var(--dropbox-darker);
-    padding: 2rem;
 }
 
-.user-type-info:nth-child(2) {
-    margin-left: 1rem;
-    margin-right: 1rem;
+.blue {
+    color: var(--dropbox-buttons);
 }
 
-.plan-type-container {
-    display: flex;
-}
-
-.enterprise {
+.col-12 {
+    width: 100%;
     margin-top: 1rem;
+    padding: 1rem;
+    border: 1px groove var(--dropbox-darker);
 }
+
+/* /Plan */
+
+/* Partner */
 
 .partner {
     background-color: var(--dropbox-lighter);
@@ -200,14 +228,9 @@ nav {
     padding: 1rem 0;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
+/* /Partner */
 
-.col-4 {
-    width: calc((100%/12)*4);
-}
+/* Info */
 
 .col-4>img {
     max-width: 100%;
