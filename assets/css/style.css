@@ -247,30 +247,35 @@ header {
 
 .left-wrap {
     display: flex;
+    justify-content: center;
 }
 
 .designit-s-logo {
     background-color: var(--dropbox-sponsor-designit-s);
     width: 200px;
     height: 200px;
+    fill: var(--dropbox-lighter);
 }
 
 .asu-logo {
     background-color: var(--dropbox-sponsor-asu);
     width: 200px;
     height: 200px;
+    fill: var(--dropbox-lighter);
 }
 
 .ud-logo {
     background-color: var(--dropbox-sponsor-uf);
     width: 200px;
     height: 200px;
+    fill: var(--dropbox-lighter);
 }
 
 .tops-logo {
     background-color: var(--dropbox-sponsor-topps);
     width: 200px;
     height: 200px;
+    fill: var(--dropbox-lighter);
 }
 
 
