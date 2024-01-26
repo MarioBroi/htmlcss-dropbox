@@ -226,6 +226,19 @@ header {
 
 .team-logo {
     display: flex;
+
+    &>.center {
+        padding: 3rem;
+    }
+}
+
+.center>hr {
+    width: 30%;
+    margin: 3rem 0 3rem 0;
+}
+
+.center>p {
+    margin-bottom: 3rem;
 }
 
 .team-logo>.left,
@@ -275,7 +288,7 @@ header {
     background-color: var(--dropbox-primary);
 }
 
-.lonly-logo {
+.lonely-logo {
     background-color: var(--dropbox-sponsor-lp);
 }
 
@@ -288,6 +301,8 @@ header {
     height: 150px;
     width: 150px;
 }
+
+
 
 
 
