@@ -193,6 +193,16 @@ header {
     margin-top: 1rem;
     padding: 1rem;
     border: 1px groove var(--dropbox-darker);
+
+    &>.col-top {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    &>.col-content {
+        display: flex;
+        padding: 1rem;
+    }
 }
 
 /* /Plan */
