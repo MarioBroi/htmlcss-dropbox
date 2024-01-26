@@ -249,12 +249,10 @@ header {
 }
 
 .logo-container {
-    /*     height: 400px;
-    width: 400px; */
     background-color: var(--dropbox-primary);
 }
 
-.logo-wrap {
+.logo-flex {
     display: flex;
 
     &>* {
@@ -302,9 +300,30 @@ header {
     width: 150px;
 }
 
+.call-in-action {
+    background-color: var(--dropbox-primary);
+}
 
+.cia-flex {
+    display: flex;
+    justify-content: space-around;
+}
 
+.cia-left>h2 {
+    color: var(--dropbox-danger);
+    flex-grow: 1;
+}
 
+.cia-right {
+    align-self: center;
+    flex-grow: 3;
+}
+
+.btn-freetryal {
+    padding: 2rem;
+    border: transparent;
+    background-color: var(--dropbox-lighter);
+}
 
 
 /* #endregion Main */
