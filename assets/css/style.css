@@ -408,14 +408,22 @@ footer {
     & .top {
         display: flex;
 
-        & .item {
+        &>.item {
             flex-grow: 1;
             min-height: 200px;
+            padding: 5rem 0;
 
-            & ul {
-                & li {
-                    & a {
+            &>h4 {
+                padding: 1rem 0;
+            }
+
+            &>ul {
+                &>li {
+                    padding: 0.5rem 0;
+
+                    &>a {
                         color: var(--dropbox-lighter);
+
                     }
                 }
             }
@@ -423,5 +431,11 @@ footer {
     }
 }
 
+.bottom {
+    &>hr {
+        width: 150px;
+        margin: 1rem 0;
+    }
+}
 
 /* #endregion Footer */
