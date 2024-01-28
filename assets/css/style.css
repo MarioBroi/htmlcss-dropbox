@@ -243,7 +243,7 @@ header {
 .container {
     width: 800px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 4rem auto;
 }
 
 .site-flex>img {
@@ -280,6 +280,10 @@ header {
     margin-bottom: 5rem;
 }
 
+/* / Info */
+
+/* Teamwork */
+
 .team-logo {
     display: flex;
 
@@ -301,10 +305,6 @@ header {
 .team-logo>.right,
 .team-logo>.center {
     flex-grow: 1;
-}
-
-.logo-container {
-    background-color: var(--dropbox-primary);
 }
 
 .logo-flex {
@@ -355,6 +355,10 @@ header {
     width: 150px;
 }
 
+/* /Teamwork */
+
+/* Call in action */
+
 .call-in-action {
     background-color: var(--dropbox-primary);
 }
@@ -375,14 +379,23 @@ header {
 }
 
 .btn-freetryal {
-    padding: 2rem;
+    width: 400px;
+    height: 30px;
     border: transparent;
     background-color: var(--dropbox-lighter);
 }
 
+/* / Call in action */
+
+/* Faq */
+
 .li-faq {
     padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
 }
+
+/* /Faq */
 
 /* #endregion Main */
 
