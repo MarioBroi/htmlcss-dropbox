@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --dropbox-primary: rgba(180, 208, 231, 1);
     --dropbox-lighter: rgba(255, 255, 255, 1);
@@ -65,6 +69,10 @@ label {
     color: var(--dropbox-lighter);
     background-color: var(--dropbox-buttons);
     border: transparent;
+}
+
+.btn-primary:hover {
+    filter: brightness(90%);
 }
 
 .site-flex {
@@ -253,6 +261,10 @@ header {
     background-color: var(--dropbox-lighter);
 }
 
+.btn-partner:hover {
+    filter: brightness(90%);
+}
+
 .container {
     width: 800px;
     max-width: 1200px;
@@ -405,9 +417,12 @@ header {
 }
 
 .btn-freetryal {
-
     border: transparent;
     background-color: var(--dropbox-lighter);
+}
+
+.btn-partner:hover {
+    filter: brightness(90%);
 }
 
 /* / Call in action */
@@ -418,6 +433,26 @@ header {
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion {
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    border: transparent;
+    background-color: var(--dropbox-lighter);
 }
 
 /* /Faq */
