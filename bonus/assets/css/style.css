@@ -386,6 +386,10 @@ header {
     width: 150px;
 }
 
+.shadow:hover {
+    box-shadow: inset 0 0 0 15px #d1e9cd;
+}
+
 /* /Teamwork */
 
 /* Call in action */
