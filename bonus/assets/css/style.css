@@ -30,8 +30,11 @@ ul {
     list-style: none;
 }
 
-li>a {
+a {
     text-decoration: none;
+}
+
+li>a {
     color: var(--dropbox-darker);
 }
 
@@ -51,6 +54,10 @@ label {
 
 .margin-top {
     margin-top: 10rem;
+}
+
+.padding-top {
+    padding-top: 1rem;
 }
 
 .btn-primary {
@@ -143,6 +150,10 @@ header {
 .arrow-down {
     font-size: 50px;
     margin-top: 3rem;
+
+    &>a {
+        color: var(--dropbox-darker);
+    }
 }
 
 /* /end Jumbotron */
@@ -237,6 +248,8 @@ header {
 
 .btn-partner {
     padding: 0.5rem;
+    color: var(--dropbox-darker);
+    border: 1px solid black;
     background-color: var(--dropbox-lighter);
 }
 
@@ -277,6 +290,7 @@ header {
 }
 
 .link-discover>a {
+    text-decoration: underline;
     margin-bottom: 5rem;
 }
 
@@ -361,6 +375,10 @@ header {
 
 .call-in-action {
     background-color: var(--dropbox-primary);
+
+    &>.container {
+        margin-top: 0;
+    }
 }
 
 .cia-flex {
@@ -368,19 +386,26 @@ header {
     justify-content: space-around;
 }
 
-.cia-left>h2 {
-    color: var(--dropbox-danger);
-    flex-grow: 1;
+.cia-left {
+
+    &>h2 {
+        font-size: 20px;
+        color: var(--dropbox-danger);
+    }
 }
 
 .cia-right {
     align-self: center;
-    flex-grow: 3;
+
+    &>a {
+        text-align: center;
+        color: var(--dropbox-darker);
+        padding: 0.5rem;
+    }
 }
 
 .btn-freetryal {
-    width: 400px;
-    height: 30px;
+
     border: transparent;
     background-color: var(--dropbox-lighter);
 }
