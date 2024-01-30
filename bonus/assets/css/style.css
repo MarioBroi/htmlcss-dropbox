@@ -69,6 +69,8 @@ label {
     color: var(--dropbox-lighter);
     background-color: var(--dropbox-buttons);
     border: transparent;
+    text-align: center;
+    display: block;
 }
 
 .btn-primary:hover {
@@ -142,7 +144,7 @@ header {
 
 .jumbo-img {
     width: 70%;
-    height: 70%
+    height: 70%;
 }
 
 .jumbo-paragraf-container {
@@ -181,7 +183,7 @@ header {
 
 .col-4 {
     width: calc((100%/12)*3.7);
-    padding: 0 1rem;
+    padding: 0 0.8rem;
     margin: 4rem 0;
 
     &>.col-top {
@@ -206,7 +208,7 @@ header {
 
 .col-4:nth-child(2),
 .col-4:nth-child(5) {
-    margin: 4rem 1.8rem;
+    margin: 4rem 1.6rem;
 }
 
 .border {
